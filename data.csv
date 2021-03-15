@@ -1,11 +1,11 @@
 callsign,number,origin,duration,day
-DAL720,DL720,KDTW,"{""hours"":5,""minutes"":1,""seconds"":57}",1612051200000
 AMX608,AM608,MMMX,"{""hours"":7,""minutes"":55,""seconds"":11}",1612051200000
-CAL004,,RCTP,"{""hours"":10,""minutes"":23,""seconds"":38}",1612051200000
-DAL506,DL506,KATL,"{""hours"":5,""minutes"":14,""seconds"":54}",1612051200000
-AAL670,AA670,KCLT,"{""hours"":5,""minutes"":32,""seconds"":2}",1612051200000
+SKW3545,OO3545,KSLC,"{""hours"":1,""minutes"":50,""seconds"":3}",1612051200000
+UAL858,,,"{""hours"":9,""minutes"":39,""seconds"":38}",1612051200000
 DAL1030,DL1030,KMSP,"{""hours"":3,""minutes"":53,""seconds"":2}",1612051200000
+EJA560,1I560,KSDL,"{""hours"":1,""minutes"":42,""seconds"":35}",1612051200000
+ASA1252,AS1252,KSEA,"{""hours"":1,""minutes"":46,""seconds"":7}",1612051200000
 AIC183,AI183,VIDP,"{""hours"":14,""minutes"":46,""seconds"":46}",1612051200000
 UAL59,UA59,EDDF,"{""hours"":11,""minutes"":8,""seconds"":34}",1612051200000
-EVA028,,RCTP,"{""hours"":10,""minutes"":32,""seconds"":28}",1612051200000
-SKW3545,OO3545,KSLC,"{""hours"":1,""minutes"":50,""seconds"":3}",1612051200000
+AAL670,AA670,KCLT,"{""hours"":5,""minutes"":32,""seconds"":2}",1612051200000
+OKC473,,KYKM,"{""hours"":1,""minutes"":43,""seconds"":28}",1612051200000
