@@ -6,4 +6,4 @@ SELECT callsign,
 FROM   flights
 WHERE  destination = 'KSFO'
 ORDER  BY day DESC
-LIMIT  10;
+LIMIT  1000;
