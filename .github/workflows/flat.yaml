@@ -15,10 +15,9 @@ jobs:
     - name: Fetch data
       uses: githubocto/flat-action@v1
       with:
-        # We'll upload an encrypted version of your connection string as a secret
-        connstring: ${{ secrets.CONNSTRING }}
-      # After hitting "Save and Commit Action", you'll be prompted to write your SQL query.
-        queryfile: query.sql
+        sql_connstring: ${{ secrets.CONNSTRING }}
+        sql_queryfile: query.sql
+        sql_format: csv
     - name: Commit and push if changed
       run: |-
         git config user.name "Flat"
