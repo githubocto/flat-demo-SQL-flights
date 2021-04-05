@@ -18,11 +18,3 @@ jobs:
         sql_connstring: ${{ secrets.CONNSTRING }}
         sql_queryfile: query.sql
         sql_format: csv
-    - name: Commit and push if changed
-      run: |-
-        git config user.name "Flat"
-        git config user.email "actions@users.noreply.github.com"
-        git add -A
-        timestamp=$(date -u)
-        git commit -m "Latest data: ${timestamp}" || exit 0
-        git push
