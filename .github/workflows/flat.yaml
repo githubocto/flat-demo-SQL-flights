@@ -16,5 +16,5 @@ jobs:
       uses: githubocto/flat-action@v1
       with:
         sql_connstring: ${{ secrets.CONNSTRING }}
-        sql_queryfile: query.sql
+        sql_queryfile: .github/workflows/query.sql
         sql_format: csv
