@@ -1,20 +1,22 @@
-name: Flight Data
+name: flat
 on:
   push:
-    branches:
-      - main
+    paths:
+      - .github/workflows/flat.yml # Only run a new workflow every time this file (flat.yaml) file changes
   workflow_dispatch:
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 6 * * *'
 jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
+    - name: Setup deno
+      uses: denolib/setup-deno@v2
     - name: Check out repo
       uses: actions/checkout@v2
     - name: Fetch data
-      uses: githubocto/flat@v1
+      uses: githubocto/flat@v2
       with:
         sql_connstring: ${{ secrets.CONNSTRING }}
-        sql_queryfile: .github/workflows/query.sql
-        sql_format: csv
+        sql_queryfile: query.sql
+        downloaded_filename: sql-data.csv
