@@ -4,7 +4,7 @@ This demo is part of a larger Flat Data project created by Github Research. Read
 
 ## What this demo does
 
-This repository uses a [Flat Data Action](https://octo.github.com/blog/flat-data) to query a SQL database and download the data as a CSV file every day at 6am UTC. A SQL connection string has to be added to the GitHub repository as a secret.
+This repository uses a [Flat Data Action](https://octo.github.com/blog/flat-data) to query a SQL database with flight data and downloads the data as a CSV file every day at 6am UTC. A SQL connection string has to be added to the GitHub repository as a secret.
 
 Inside `.github/workflows/flat.yaml`:
 ```yaml
