@@ -1,4 +1,4 @@
-# Flat Data Demo: SQL Demo
+# Flat Data Demo: SQL Flights Demo
 
 This demo is part of a larger Flat Data project created by [GitHub OCTO](https://octo.github.com/). Read more about the project [here](https://octo.github.com/blog/flat-data).
 
@@ -15,6 +15,9 @@ Inside `.github/workflows/flat.yaml`:
         sql_queryfile: query.sql # a file with the SQL query
         downloaded_filename: sql-data.csv # should be a csv or json
 ```
+
+<img src="https://raw.githubusercontent.com/githubocto/flat-demo-SQL-flights/readme-assets/assets/diagram.png" alt="diagram" width="400"/>
+
 
 ## License
 
