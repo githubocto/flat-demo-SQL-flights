@@ -22,3 +22,4 @@ jobs:
         sql_connstring: ${{ secrets.CONNSTRING }}
         sql_queryfile: query.sql
         downloaded_filename: sql-data.csv
+        # typeorm_config: # optional param to pass in typeorm config
