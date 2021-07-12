@@ -9,7 +9,7 @@ This repository uses a [Flat Data Action](https://octo.github.com/blog/flat-data
 Inside `.github/workflows/flat.yaml`:
 ```yaml
 - name: Fetch data
-      uses: githubocto/flat@v2
+      uses: githubocto/flat@v3
       with:
         sql_connstring: ${{ secrets.CONNSTRING }} # a SQL database connection string fetched as a GitHub secret
         sql_queryfile: query.sql # a file with the SQL query
